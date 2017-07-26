@@ -15,6 +15,10 @@
 		43A6FA4C1F28861F003F52B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43A6FA4A1F28861F003F52B9 /* LaunchScreen.storyboard */; };
 		43A6FA571F28861F003F52B9 /* SelectionCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A6FA561F28861F003F52B9 /* SelectionCellTests.m */; };
 		43A6FA621F28861F003F52B9 /* SelectionCellUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A6FA611F28861F003F52B9 /* SelectionCellUITests.m */; };
+		43A6FA761F288FA7003F52B9 /* ButtonSingleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A6FA751F288FA7003F52B9 /* ButtonSingleController.m */; };
+		43A6FA791F288FBB003F52B9 /* CollectionSingleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A6FA781F288FBB003F52B9 /* CollectionSingleController.m */; };
+		43A6FA7C1F288FC8003F52B9 /* TableSingleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A6FA7B1F288FC8003F52B9 /* TableSingleController.m */; };
+		43A6FA7F1F2891FE003F52B9 /* ButtonMulController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A6FA7E1F2891FE003F52B9 /* ButtonMulController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		43A6FA5D1F28861F003F52B9 /* SelectionCellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelectionCellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43A6FA611F28861F003F52B9 /* SelectionCellUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectionCellUITests.m; sourceTree = "<group>"; };
 		43A6FA631F28861F003F52B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43A6FA741F288FA7003F52B9 /* ButtonSingleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonSingleController.h; sourceTree = "<group>"; };
+		43A6FA751F288FA7003F52B9 /* ButtonSingleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonSingleController.m; sourceTree = "<group>"; };
+		43A6FA771F288FBB003F52B9 /* CollectionSingleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionSingleController.h; sourceTree = "<group>"; };
+		43A6FA781F288FBB003F52B9 /* CollectionSingleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionSingleController.m; sourceTree = "<group>"; };
+		43A6FA7A1F288FC8003F52B9 /* TableSingleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableSingleController.h; sourceTree = "<group>"; };
+		43A6FA7B1F288FC8003F52B9 /* TableSingleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableSingleController.m; sourceTree = "<group>"; };
+		43A6FA7D1F2891FE003F52B9 /* ButtonMulController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonMulController.h; sourceTree = "<group>"; };
+		43A6FA7E1F2891FE003F52B9 /* ButtonMulController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonMulController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +117,9 @@
 				43A6FA401F28861F003F52B9 /* AppDelegate.m */,
 				43A6FA421F28861F003F52B9 /* ViewController.h */,
 				43A6FA431F28861F003F52B9 /* ViewController.m */,
+				43A6FA711F288F3F003F52B9 /* Button */,
+				43A6FA721F288F59003F52B9 /* CollectionView */,
+				43A6FA731F288F59003F52B9 /* TableView */,
 				43A6FA451F28861F003F52B9 /* Main.storyboard */,
 				43A6FA481F28861F003F52B9 /* Assets.xcassets */,
 				43A6FA4A1F28861F003F52B9 /* LaunchScreen.storyboard */,
@@ -138,6 +153,35 @@
 				43A6FA631F28861F003F52B9 /* Info.plist */,
 			);
 			path = SelectionCellUITests;
+			sourceTree = "<group>";
+		};
+		43A6FA711F288F3F003F52B9 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				43A6FA741F288FA7003F52B9 /* ButtonSingleController.h */,
+				43A6FA751F288FA7003F52B9 /* ButtonSingleController.m */,
+				43A6FA7D1F2891FE003F52B9 /* ButtonMulController.h */,
+				43A6FA7E1F2891FE003F52B9 /* ButtonMulController.m */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		43A6FA721F288F59003F52B9 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				43A6FA771F288FBB003F52B9 /* CollectionSingleController.h */,
+				43A6FA781F288FBB003F52B9 /* CollectionSingleController.m */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		43A6FA731F288F59003F52B9 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				43A6FA7A1F288FC8003F52B9 /* TableSingleController.h */,
+				43A6FA7B1F288FC8003F52B9 /* TableSingleController.m */,
+			);
+			path = TableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,8 +318,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				43A6FA441F28861F003F52B9 /* ViewController.m in Sources */,
+				43A6FA761F288FA7003F52B9 /* ButtonSingleController.m in Sources */,
 				43A6FA411F28861F003F52B9 /* AppDelegate.m in Sources */,
+				43A6FA7F1F2891FE003F52B9 /* ButtonMulController.m in Sources */,
 				43A6FA3E1F28861F003F52B9 /* main.m in Sources */,
+				43A6FA7C1F288FC8003F52B9 /* TableSingleController.m in Sources */,
+				43A6FA791F288FBB003F52B9 /* CollectionSingleController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,6 +557,7 @@
 				43A6FA681F28861F003F52B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		43A6FA691F28861F003F52B9 /* Build configuration list for PBXNativeTarget "SelectionCellTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +566,7 @@
 				43A6FA6B1F28861F003F52B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		43A6FA6C1F28861F003F52B9 /* Build configuration list for PBXNativeTarget "SelectionCellUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +575,7 @@
 				43A6FA6E1F28861F003F52B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
