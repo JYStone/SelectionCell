@@ -19,6 +19,7 @@
 		43A6FA791F288FBB003F52B9 /* CollectionSingleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A6FA781F288FBB003F52B9 /* CollectionSingleController.m */; };
 		43A6FA7C1F288FC8003F52B9 /* TableSingleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A6FA7B1F288FC8003F52B9 /* TableSingleController.m */; };
 		43A6FA7F1F2891FE003F52B9 /* ButtonMulController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A6FA7E1F2891FE003F52B9 /* ButtonMulController.m */; };
+		43C432571F3B2C4F00C352C0 /* ButtonSelectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C432561F3B2C4F00C352C0 /* ButtonSelectController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		43A6FA7B1F288FC8003F52B9 /* TableSingleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableSingleController.m; sourceTree = "<group>"; };
 		43A6FA7D1F2891FE003F52B9 /* ButtonMulController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonMulController.h; sourceTree = "<group>"; };
 		43A6FA7E1F2891FE003F52B9 /* ButtonMulController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonMulController.m; sourceTree = "<group>"; };
+		43C432551F3B2C4F00C352C0 /* ButtonSelectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonSelectController.h; sourceTree = "<group>"; };
+		43C432561F3B2C4F00C352C0 /* ButtonSelectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonSelectController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +165,8 @@
 				43A6FA751F288FA7003F52B9 /* ButtonSingleController.m */,
 				43A6FA7D1F2891FE003F52B9 /* ButtonMulController.h */,
 				43A6FA7E1F2891FE003F52B9 /* ButtonMulController.m */,
+				43C432551F3B2C4F00C352C0 /* ButtonSelectController.h */,
+				43C432561F3B2C4F00C352C0 /* ButtonSelectController.m */,
 			);
 			path = Button;
 			sourceTree = "<group>";
@@ -320,6 +325,7 @@
 				43A6FA441F28861F003F52B9 /* ViewController.m in Sources */,
 				43A6FA761F288FA7003F52B9 /* ButtonSingleController.m in Sources */,
 				43A6FA411F28861F003F52B9 /* AppDelegate.m in Sources */,
+				43C432571F3B2C4F00C352C0 /* ButtonSelectController.m in Sources */,
 				43A6FA7F1F2891FE003F52B9 /* ButtonMulController.m in Sources */,
 				43A6FA3E1F28861F003F52B9 /* main.m in Sources */,
 				43A6FA7C1F288FC8003F52B9 /* TableSingleController.m in Sources */,

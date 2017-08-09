@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "ButtonSingleController.h"
 #import "ButtonMulController.h"
-
+#import "ButtonSelectController.h"
 @interface ViewController ()
 
 @end
@@ -19,7 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
-    NSArray *titleArr = [NSArray arrayWithObjects:@"Button 单选",@"Button 多选",@"TableView 单选",@"TableView 多选",@"CollectionView 单选",@"CollectionView 多选", nil];
+    NSArray *titleArr = [NSArray arrayWithObjects:@"Button 单选",@"Button 多选",@"Button 多选固定个数",@"TableView 单选",@"TableView 多选",@"CollectionView 单选",@"CollectionView 多选", nil];
     for (int i = 0; i < 6; i++) {
         UIButton *myButton = [UIButton buttonWithType:UIButtonTypeCustom];
         myButton.frame = CGRectMake(75, 100+75*i, 225, 50);
@@ -46,17 +46,16 @@
         muVC.title = sender.titleLabel.text;
         [self.navigationController pushViewController:muVC animated:YES];
     }else if (sender.tag == 102) {
-        ButtonSingleController *bsVC = [[ButtonSingleController alloc] init];
+        ButtonSelectController *bsVC = [[ButtonSelectController alloc] init];
+        bsVC.view.backgroundColor = [UIColor whiteColor];
+        bsVC.title = sender.titleLabel.text;
         [self.navigationController pushViewController:bsVC animated:YES];
     }else if (sender.tag == 103) {
-        ButtonSingleController *bsVC = [[ButtonSingleController alloc] init];
-        [self.navigationController pushViewController:bsVC animated:YES];
+        
     }else if (sender.tag == 104) {
-        ButtonSingleController *bsVC = [[ButtonSingleController alloc] init];
-        [self.navigationController pushViewController:bsVC animated:YES];
+        
     }else {
-        ButtonSingleController *bsVC = [[ButtonSingleController alloc] init];
-        [self.navigationController pushViewController:bsVC animated:YES];
+        
     }
 }
 

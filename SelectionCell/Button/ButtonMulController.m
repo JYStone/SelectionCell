@@ -28,7 +28,7 @@
         for (int j = 0; j < 3; j++) {
             UIButton * btn = [UIButton buttonWithType:UIButtonTypeCustom];
             btn.backgroundColor = [UIColor groupTableViewBackgroundColor];
-            [btn setTitle:[NSString stringWithFormat:@"%d", i + (3 * j) + 1] forState:UIControlStateNormal];
+            [btn setTitle:[NSString stringWithFormat:@"%d ll", i + (3 * j) + 1] forState:UIControlStateNormal];
             [btn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
             btn.tag = (i + (3 * j) + 1) + 100;
             [btn addTarget:self action:@selector(clickedBtnWith:) forControlEvents:UIControlEventTouchUpInside];
@@ -59,15 +59,5 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
